@@ -1,0 +1,32 @@
+body{
+    background-image:url("BACK.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Stack elements vertically */
+            }
+
+        p {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            color: burlywood;
+            width: 50%;
+        }
+        .welcome-button{
+            color: black;
+            width: 10%;
+            height: 5%;
+            background-color: aqua;
+            border-radius: 5%;
+        }
